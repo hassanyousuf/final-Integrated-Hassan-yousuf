@@ -1,0 +1,333 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+#clicktoview h1
+{
+/* font-size: 200px; */
+text-align: center;
+
+}
+
+.mainNav
+{
+
+	height: 70px;
+	background-color: rgba(0, 0, 0, .5);
+	text-align: center;
+	border-bottom: 3px #grey solid;
+	position: fixed;
+	z-index: 2;
+	width: auto;
+}
+
+.mainNav ul
+{
+	color: #dddddd;
+	text-decoration: none;
+	padding-top: 20px;
+}
+
+.mainNav ul li
+{
+	 list-style-type: none;
+	 display: inline;
+	 margin: 20px;
+}
+
+
+
+
+ #siteContainer
+ {
+
+	 margin:0 auto;
+
+
+	 background: url("../images/background.png") 100% no-repeat;
+	 background-size: cover;
+
+
+	 display:block;
+background-repeat: no-repeat;
+
+	 /* background-image: url("../images/background.png"); */
+/* the above large works */
+/* large is proper length */
+
+
+
+/* error with above example. should be used in html but not correctly used in this example */
+	 /* background-image: url("../images/desktop.png"); */
+/* wont be making multiple versions of background yet. */
+
+
+	 /* the above mobile is functioning */
+
+
+ }
+/*
+@media screen and(min-width:630px){
+	background-image: url("../images/mobile.png");
+
+} */
+body
+{
+/* image cant be in boddy cuz it is the whole page and wont go into the center */
+display: block;
+margin:0 auto;
+
+
+}
+
+
+
+.dvd
+{
+	width:50%;
+	height:50%;
+
+}
+/* not working */
+
+
+/* volume control bar */
+
+#video-Controls-bar1
+{
+
+background-color: white;
+opacity:70;
+border:10px;
+color:white;
+padding-bottom: 30px;
+
+float:inherit;
+}
+
+
+
+
+#ST_Trailer
+{
+background-color: blue;
+
+}
+
+#ST_Trailer:button
+{
+
+padding:10px;
+margin:10px;
+
+}
+
+#movie2
+{
+
+	background-color: blue;
+}
+
+#movie2:button
+{
+padding:10px;
+margin: 10px;
+}
+
+#caption {
+
+position:relative;
+width:630px;
+margin: 0px auto;
+
+}
+
+
+/* end volume control bar */
+
+
+/* start gallery */
+
+
+#photo {
+position:absolute;
+left:0px;
+top:20px;
+width:600px;
+height:400px;
+}
+
+#caption {
+position:absolute;
+left:0px;
+top:420px;
+width:600px;
+height:20px;
+text-align:center;
+background-color: grey;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 0px 0px 30px 30px;
+}
+
+#menu {
+	position:absolute;
+	left:0px;
+	top:559px;
+	width:600px;
+	height:20px;
+	text-align:center;
+	cursor: default;
+
+}
+
+
+
+#menu a {
+	padding-right:10px;
+}
+
+
+#wrapper {
+position:relative;
+width:600px;
+margin: 0px auto;
+padding-bottom: 60%;
+
+}
+
+
+#nextbtn, #prevbtn
+{
+	width: 15%;
+
+			height:400px;
+			position:INHERIT;
+			bottom:159px;
+			/* the background color here is for the bars */
+			/* background-color: rgba(88, 88, 88,.2); */
+			color:rgba(244, 244, 244,.9);
+			opacity:100;
+			/* z-index: 99; */
+			transition: .45s;
+			cursor: pointer;
+			text-align: center;
+}
+
+#nextbtn
+{
+	right:0;
+	/* height: auto; */
+}
+#prevbtn
+{
+	left:0px;
+	/* height:auto; */
+}
+
+
+#menu .dot
+{
+
+		width: 18px;
+		height: 18px;
+		margin: 0px;
+		position:relative;
+		border-radius: 50%;
+		display: inline-block;
+		background-color: rgba(0, 0, 0, 0.6);
+		transition: .4s;
+}
+
+#nextbtn span
+{
+	position: absolute;
+			font-size: 100pt;
+			top: 25%;
+
+}
+
+#nextbtn:hover{
+		transition: .3s;
+		background-color: rgba(88, 88, 89,.8);
+		opacity:40;
+		color: #ffffff;
+	}
+
+	#prevbtn:hover{
+		transition: .3s;
+		background-color: rgba(88, 88, 89,.8);
+		opacity:40;
+		color: #ffffff;
+	}
+
+#prevbtn span
+{
+	position: absolute;
+			font-size: 100pt;
+			top: 25%;
+
+}
+
+#menu .dot:hover
+{
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.9);
+	transition: .25s
+}
+
+
+
+/* end gallery */
+
+
+/* Characters */
+
+h2
+{
+	font-size: 14px;
+	text-align: center;
+}
+
+.cast{
+	position:relative;
+	padding-top:85px;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+
+.actorName
+{
+    display:inline-block;
+    border:0;
+    width:150px;
+    position: relative;
+    transition: all 200ms ease-in;
+    transform: scale(1);
+
+}
+.actorName:hover
+{
+    box-shadow: 0px 0px 25px #005252;
+    z-index: 2;
+		/* make image appear ahead */
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+
+}
+
+/* end characters */
+
+
+/* join now */
+#clicktoview
+{
+	font-size: 30px;
+	margin: 0 auto;
+}

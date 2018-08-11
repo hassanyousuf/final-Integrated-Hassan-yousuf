@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Starship Troopers</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/foundation.css">
+<!-- <link rel="stylesheet" href="css/app.css"> -->
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+
+
+<body>
+
+<section id="siteContainer" class="row">
+  <h2 class="hidden">site container</h2>
+  <!-- making naviation -->
+  <!-- bellow is for large and is not functioning -->
+   <!-- <ul class="large-horizontal menu" data-hide-for="small"> -->
+   <!-- line above is wrong and not repsonive -->
+<header class="row fullWidth">
+  <nav class="large-2 small-2-push-10 large-push-10 columns">
+    <h2 class="hidden">main navigation</h2>
+  </nav>
+<div class="mainNav">
+  <ul>
+    <li><a href="#trailer">Trailer</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#about">about</a></li>
+    <li><a href="#join_now">Join Now</a></li>
+    <li><a href="#cast">cast</a></li>
+  </ul>
+</div>
+
+
+  </header>
+
+<!-- about is the nav  within header -->
+
+
+
+
+
+<!-- trailer -->
+<div id="trailer" >
+
+
+<!-- <style>
+.hiddenME{display:none;}
+.controls{margin-bottom:15px;}
+</style> -->
+
+
+<section class="row">
+  <h2 class="hidden">videos</h2>
+<video  class="large-12 small-12 columns" id="myVideo" autoplay loop> <!-- only autoplay with muted property -->
+	<source src="assets/ST_Trailer.mp4" type="video/mp4"/>
+    <!-- <source src="assets/ST_Trailer.webm" type="video/webm"/>
+    <source src="assets/St_Trailer.ogv" type="video/ogg"/> -->
+
+    <!-- do not have have rendered other than mp4 from last semester because i didnt make a website and didnt know it was required -->
+    <source src="assets/house-arryn.mp4" type="video/mp4"/>
+
+
+</video>
+
+<!-- video controls icon refrences -->
+<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/daniele-de-santis" title="Mute">Mute</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/daniele-de-santis" title="Play button">Play button</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/daniele-de-santis" title="Speaker">Speaker</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Speaker">Speaker</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Speaker">Speaker</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Speaker">Speaker</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Speaker">Speaker</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/daniele-de-santis" title="Pause">Pause</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/daniele-de-santis" title="Play button">Play button</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+
+
+
+<div id="video-Controls-bar1">
+<section class="row">
+<h2 class="hidden">video controls</h2>
+	<button id="St_Trailer" class="columns large-1 small-2 vidLoader">vid 1</button>
+	<button id="house-arryn" class="columns large-1 small-2 vidLoader">vid 2</button>
+	<!-- <button id="movie3" class="vidLoader">vid 3</button> -->
+
+
+</section>
+
+
+<section class="row centered">
+<h2 class="hidden">control bar</h2>
+<div class="row video_controls_bar">
+  <!-- <button id="playpausebtn" class="columns large-1"><img src="images/play.png" alt="play and pause button"></button> -->
+	<!-- <input id="seekslider" type="range" min="0" max="100" value="0" step="1"> -->
+  <label id="ppause" class="columns large-offset-7 large-1 small-2 small-offset-2"><img src="images/play-button.png" alt="play"></label>
+  <label id= "mutebtn" class="columns large-1 small-2"><img src="images/speaker (2).png" alt="more sound"></label>
+  <label id="volup" class="columns large-1 small-2 "><img src="images/speaker (1).png" alt="less sound"></label>
+  <label id="voldown" class="columns large-1  small-2 "><img src="images/speaker.png" alt="mute"></label>
+  <!-- <input id="volumeslider" type="range" min="0" value="100" step="1"> -->
+  <label id="fullscreenbtn" class="columns large-1 small-2 "><img src="images/fullscreen.png" alt="full screen"></label>
+
+  <!-- <input type="button" class="pPause" value="Play"> -->
+	<!-- <button id="volDown">Vol Down</button>
+	<button id="volUp">Vol Up</button>
+	<button id="volMute">Mute</button> -->
+</div>
+</section>
+</div>
+<!-- close trailer div -->
+<!-- ending video controls -->
+
+
+</section>
+</div>
+<!-- end video contol  bar -->
+
+</section>
+
+
+
+<!-- end of trailer -->
+
+
+
+<!-- start gallery -->
+
+<div id="gallery">
+<section class="row">
+  <h2 class="hidden">gallery</h2>
+<div id="wrapper">
+<div><img src="images/starship_hed.jpg" id="photo" alt="starship"></div>
+<div id="caption">Dead bug</div>
+<div id="menu">
+
+  <label id="prevbtn"><span>&#x2039;</span></label>
+
+  <a data-pick="0" id="0" class="dot"></a>
+	<a data-pick="1" id="1" class="dot"></a>
+	<a data-pick="2" id="2" class="dot"></a>
+  <a data-pick="0" id="3" class="dot"></a>
+  <a data-pick="1" id="4" class="dot"></a>
+  <a data-pick="2" id="5" class="dot"></a>
+
+	<label id="nextbtn"><span>&#x203a;</span></label>
+</div>
+</div>
+<!-- close wrapper -->
+
+</section>
+</div>
+
+
+
+<!-- end gallery -->
+
+
+<!-- start characters -->
+
+
+
+<div id="cast">
+<section class="row cast">
+  <h2 class="hidden">cast</h2>
+<h2 class="hide">Cast List</h2>
+
+  <div class="small-6 large-2 columns actor ">
+
+    <div class="actorName"><h2>Casper Van Dien</h2><img src="images/casper_van_dien.png" alt="casper van dien"></div>
+  </div>
+
+  <div class="small-6 large-2 columns actor">
+
+    <div class="actorName"><h2>clancy brown</h2><img src="images/denise_richards.png" alt="Denise richards"></div>
+  </div>
+
+  <div class="small-6 large-2 columns actor">
+
+    <div class="actorName"><h2>Denise Richards</h2><img src="images/michael_ironside.png" alt="michael ironside"></div>
+  </div>
+
+  <div class="small-6 large-2 column actor">
+
+    <div class="actorName"><h2>Neil Patrick Harris</h2><img src="images/neil_patrick_harris.png" alt="neil patrick harris"></div>
+  </div>
+
+  <div class="small-6 large-2 columns actor">
+
+    <div class="actorName"><h2>Michael ironsides</h2><img src="images/jake_busey.png" alt="jake busey"></div>
+  </div>
+
+  <div class="small-6 large-2 columns actor">
+
+    <div class="actorName"><h2>Dina Meyer</h2><img src="images/dina_meyer.png" alt="dina meyer"></div>
+  </div>
+
+
+</section>
+
+</div>
+<!-- end characters -->
+
+
+
+  <!-- dont know if proper for centered -->
+<div id="about">
+<section class="row">
+  <h2 class="hidden">about</h2>
+    <h1>You want some advice? Never pass up a good thing!</h1>
+  <div class="columns small-12 large-6">
+  <p>In the distant future, several hundred years after a revolution by Galactic War Veterans overthrew the world's governments and imposed a militaristic regime titled 'The Global Federation of Earth', humanity is at tense diplomatic relations with an alien race whose homeworld is the planet Klendathu (one of many planets inhabited by these creatures located on the other side of the Milky Way Galaxy) who are named the Arachnids, or 'Bugs'. John 'Johnny' D. Rico (Casper Van Dien), his girlfriend Carmen (Denise Richards), and best friend Carl (Neil Patrick Harris), who possesses psychic abilities, graduate from high school in Buenos Aires. Carmen and Carl enlist in the military to become citizens. Wanting to follow his girlfriend and friend, Johnny goes against his parents' desires and also enlists. But he finds that his grades are too low to join Carmen in Flight School and is assigned to the Mobile Infantry while Carl joins Military Intelligence.
+</p>
+</div>
+
+<div class="columns small-10 large-6">
+  <img src="images/20th_an_cover.png" alt="cover">
+</div>
+</section>
+</div>
+
+
+<div id="join_now">
+<section class="row">
+  <h2 class="hidden">join now</h2>
+  <label id="clicktoview">join Up Now</label>
+    <!-- javascript doesnt make this disapear  -->
+<!-- place join now image here -->
+  <form id="removeclass" class="columns small-12 large-12 hidden" method="post">
+        <h1>Fill in the form bellow</h1>
+        <div class="columns small-6 large-6">
+          <input type="text" name="Your Name" placeholder="Name" required>
+        </div>
+
+          <div class="columns small-6 large-6">
+          <input type="email" name="Your Email" placeholder="Email" required>
+          </div>
+
+          <textarea name="Message" placeholder="Message" required></textarea>
+        <div class="columns small-1 small-centered large-7">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+</section>
+</div>
+
+</body>
+<script src="js/main.js"></script>
+</html>
